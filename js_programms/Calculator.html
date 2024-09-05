@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="CalculatorOpertions.js">
+    </script>
+    <style>
+        .coloring{
+            background-color: silver;
+            border: 1px solid rebeccapurple;
+            padding: 10px;
+            
+        }
+
+    </style>
+
+</head>
+
+<body align="center">
+    <p>CALCULATOR </p><br>
+    <input type="number" class="coloring" name="" id="n1" placeholder="Enter any number">
+    &nbsp;&nbsp;
+    <input type="number" class="coloring" name="" id="n2" placeholder="Enter any number">
+    <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" value="+" onclick="Addition()" class="coloring">
+    &nbsp;&nbsp;&nbsp;
+    <input type="button" value="-" onclick="substraction()" class="coloring">
+    &nbsp;&nbsp;&nbsp;
+    <input type="button" value="*" onclick="multiplication()" class="coloring">
+    &nbsp;&nbsp;&nbsp;
+    <input type="button" value="/" onclick="division()" class="coloring">
+    &nbsp;&nbsp;&nbsp;
+    <input type="button" value="%" onclick="moddivision()" class="coloring">
+    <br><br>
+    <div id="Sum"></div>
+    <div id="sub"></div>
+    <div id="mul"></div>
+    <div id="div"></div>
+    <div id="moddiv"></div>
+</body>
+
+</html>

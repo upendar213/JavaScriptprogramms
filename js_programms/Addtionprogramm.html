@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function sum() {
+            let a = eval(document.getElementById("a1").value)
+            let b = eval(document.getElementById("b1").value)
+            let sum = (a+b)**2
+            document.getElementById("res").innerHTML = sum
+        }
+    </script>
+    <style>
+        #t1 {
+            background-color: blanchedalmond;
+            margin: 0 auto;
+            padding: 14px 10px 15px 10px;
+            
+
+        }
+
+        #b2 {
+            color: black;
+            background-color: rgb(95, 170, 133);
+            border: none;
+
+        }   
+    </style>
+
+</head>
+
+<body>
+    <form action="">
+        <table id="t1"cellpadding="10px">
+            <caption> ADDING OF TWO NUMBERS</caption>
+            <tr>
+                <td>
+                    <label class="coloring">Enter one value:
+                        <input type="number" name="" id="a1">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Enter second value:
+                        <input type="number" name="" id="b1">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type="button" value="Result" id="b2" onclick="sum()">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="res"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
